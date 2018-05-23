@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
 	spec.homepage = 'https://confluence.inner-active.com/display/DevWiki/iOS+SDK+Guidelines'
 	spec.authors = 'Inneractive LTD'
 	spec.summary = 'Inneractive Ads Monetizing Platform for iOS devices'
-	spec.source = { :git => 'https://github.com/inner-active/InneractiveAdSDK-iOS.git', :tag => spec.version }
+	spec.source = { :git => 'https://github.com/inner-active/InneractiveAdSDK-iOS.git', :branch => '6.4.4', :tag => spec.version }
 	spec.description  = <<-DESC
 		The Inneractive iOS SDK provides a simple way to monetize your traffic, by easily enabling you to request and receive all of Inneractive's Ad Units - Native, Banner, Rectangle and Interstitial – as well as all ad types available, including Video (VAST), Display, Rich Media (MRAID), and Native Video & Display.
 	DESC
