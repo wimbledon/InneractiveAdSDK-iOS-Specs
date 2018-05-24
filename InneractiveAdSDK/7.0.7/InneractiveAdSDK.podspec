@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
         core.resource = 'IASDKCore/IASDKResources.bundle'
 
         core.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-        core.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKCore\"' }
+        ### core.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKCore"' }
     end
     
     spec.subspec 'IASDKMRAID' do |display|
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
             Fyber VAMP SDK MRAID Module
         DESC
         display.ios.deployment_target = '8.0'
-        display.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKMRAID\"' }
+        ### display.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKMRAID"' }
     end
     
     spec.subspec 'IASDKVideo' do |video|
@@ -73,7 +73,7 @@ Pod::Spec.new do |spec|
             Fyber VAMP SDK Video Module
         DESC
         video.ios.deployment_target = '8.0'
-        video.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKVideo\"' }
+        ### video.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKVideo"' }
     end
     
     spec.subspec 'IASDKNative' do |native|
@@ -90,6 +90,6 @@ Pod::Spec.new do |spec|
             Fyber VAMP SDK Native Module
         DESC
         native.ios.deployment_target = '8.0'
-        native.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKNative\"' }
+        ### native.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/IASDKNative"' }
     end
 end
